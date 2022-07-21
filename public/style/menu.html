@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Menu</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-static/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="menu.css" rel="stylesheet">
+  </head>
+  <body>
+  
+ <!-- navbar -->
+<nav class="navbar navbar-expand-md navbar-dark mb-4" style="background-color: #AD3537;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="login.html">
+      <img src="assets/Logo.png" alt="" width="105" height="34" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"></a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light me-3"  type="submit">Cari</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- menu -->
+
+
+  <div class="menu1 container-fluid" style="background-image: url(assets/rounded.png);">
+
+    <img src="assets/sosis.png" class="sosis">
+    <div class="wrapper">
+      <span class="minus">-</span>
+      <span class="num">0</span>
+      <span class="plus">+</span>
+</div>
+    <h6>Sosis Bakar Balado</h6>
+    <h6>Rp, 2000</h6>
+  </div>
+
+  <div class="menu1 container-fluid" style="background-image: url(assets/rounded.png);">
+
+    <img src="assets/sosis.png" class="sosis">
+    <div class="wrapper">
+      <span class="minus">-</span>
+      <span class="num">0</span>
+      <span class="plus">+</span>
+</div>
+    <h6>Sosis Bakar Balado</h6>
+    <h6>Rp, 2000</h6>
+
+  </div>
+
+  <div class="menu1 container-fluid" style="background-image: url(assets/rounded.png);">
+
+    <img src="assets/sosis.png" class="sosis">
+    <div class="wrapper">
+      <span class="minus">-</span>
+      <span class="num">0</span>
+      <span class="plus">+</span>
+</div>
+    <h6>Sosis Bakar Balado</h6>
+    <h6>Rp, 2000</h6>
+  </div>
+
+
+
+  <!-- footer -->
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark" style="background-color: #AD3537;">
+  <div class="bawah container-fluid">
+    <h5 class="krjg navbar-brand">Keranjang :</h5>
+    <a class="btn btn-secondary btn-outline-light" style="background-color: #262D31;" href="cekout.html" role="button">Selesai</a>
+    <h5 class="navbar-brand">Total :</h5>
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+  </div>
+</nav>
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const plus = document.querySelector(".plus"),
+      minus = document.querySelector(".minus"),
+      num = document.querySelector(".num");
+
+      let a = 0;
+
+      plus.addEventListener("click", ()=>{
+        a++;
+        a = (a < 10) ? + a : a;
+        num.innerText = a;
+        console.log(a);
+      })
+
+      minus.addEventListener("click", ()=>{
+        if(a > 0){
+          a--;
+        }
+        a = (a < 10) ? + a : a;
+        num.innerText = a;
+      })
+    </script>
+      
+  </body>
+</html>

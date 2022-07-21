@@ -1,0 +1,111 @@
+/* Show it's not fixed to the top */
+
+@import url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
+
+body {
+  background-color: #DFDFDF;
+  font-family: 'Copse', serif;
+}
+
+.sosis {
+  width: 110px;
+  height: 66px;
+  margin: 7px auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.menu1 h6 p{
+  display: block;
+}
+
+.menu1 {
+  width: 100%;
+  height: 82px;
+  padding: 5px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.tabel {
+  background-color: white;
+  margin: 10px auto;
+}
+
+.cekbox {
+  float: right;
+}
+
+.btn {
+  width: 150px;
+}
+
+.form-group {
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+  float: right;
+}
+
+.form-group .button{
+  width: 50px;
+  background: #ccc;
+  height: 20px;
+  border: 1px solid;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  height: 20px;
+  width: 60px;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form-group .button:active {
+  background: #ccc;
+}
+
+.total {
+  color: #fff;
+  margin-right: 30px;
+  width: 200px;
+}
+
+.wrapper span {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+}
+
+.wrapper span.num{
+  font-size: 15px;
+  border-right: 2px solid rgba(0, 0, 0, 0, 2);
+  pointer-events: none;
+}
+
+.krjg {
+  width: 30px;
+  background-color: #262D31;
+}
+
+.exc {
+  font-weight: 100;
+  font-size: small;
+}
+
+.navbarbot {
+  align-items: center;
+  display: inline-block;
+  justify-content: space-between;
+}

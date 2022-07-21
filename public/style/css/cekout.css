@@ -1,0 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
+
+body {
+    background-color: #DFDFDF;
+    min-height: 75rem;
+    font-family: 'Copse', serif;
+}
